@@ -14,6 +14,8 @@
     
   </head>
   <body>
+<section id="preloder"></section>
+
     <section class="top">
         <section class="first">
             <nav class="navbar navbar-expand-lg bg-body-tertiary nav ">
@@ -324,6 +326,12 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+</script>
+<script>
+  var loader=document.getElementById("preloder");
+  window.addEventListener("load",function (){
+    loader.style.display="none";
+  });
 </script>
   </body>
 </html>

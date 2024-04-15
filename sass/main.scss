@@ -2,6 +2,14 @@ body{
     max-width: 100%;
     background-color: rgb(50, 14, 14);
 }
+#preloder{
+    background: #ffffff url(../images/hand_animation.gif) no-repeat fixed center center ;
+    z-index: 100;
+    position: fixed;
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+}
 .top{
 padding: 1rem;
 }
